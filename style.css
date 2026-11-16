@@ -1,0 +1,51 @@
+body {
+    background: #1e1e2f;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+#info {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#jogo {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: #2d2d44;
+    border: 3px solid #fff;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#jogador {
+    position: absolute;
+    font-size: 40px;
+}
+
+.item {
+    position: absolute;
+    font-size: 30px;
+}
+
+#mensagem {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
